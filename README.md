@@ -34,6 +34,7 @@ This will allow you to push your code the the repository
 7. If bash is not selected click the drop down menu in the image above, select ‘Select Default Shell’ and click bash in the menu at the top of the window:
 <img src="resources/bashmenu.png" alt="Bash Dropdown">
 <img src="resources/shelltypes.png" alt="Shell Types">
+
 **Setting up Cypress**
 Create package.json:
 1. Open VSC and open the desired folder
