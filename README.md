@@ -30,10 +30,10 @@ This will allow you to push your code the the repository
 3. Select File Open Select folder you created in step 1
 4. Open Terminal in VSC
 5. Make sure that you have bash selected :
-![9a89f1beb6ace8df0fc5810ac7c7d5de.png](:/82026454900d4385920c34cfa6feb94d)
+<img src="resources/bash.png" alt="Bash">
 7. If bash is not selected click the drop down menu in the image above, select ‘Select Default Shell’ and click bash in the menu at the top of the window:
-![8c6685d70b05c45488a4c60bd920087e.png](:/866ed43270b6485a8901c91ca8b81136)
-![3227ba17a01244427ec80793083980f5.png](:/b57a7edae9be45dea6afafd09c9c4715)
+<img src="resources/bashmenu.png" alt="Bash Dropdown">
+<img src="resources/shelltypes.png" alt="Shell Types">
 **Setting up Cypress**
 Create package.json:
 1. Open VSC and open the desired folder
@@ -53,7 +53,7 @@ Create package.json:
 **Download Cypress:**
 1. run `npm install cypress --save-dev`
 2. to verify cypress has been installed make sure you see your node_modules folder in directory
-3.![2797dd8b39da9208d990af5e0eb4a363.png](:/373ec1fe1aba4c3894129d1743e373b7)
+3.<img src="resources/nodemodules.png" alt="node_modules">
 
 *Open Cypress:*
 1. open terminal
@@ -89,7 +89,7 @@ specific environment `--env`, `-e`
 This section is a list of default settings that you may need to adjust. 
 
 - set“chromeWebSecurity” to false in the cypress.json file.
-![d2eb38b5fc19774d6cd0139b90895adc.png](:/18a6d5034aec47b783df6c486fe74288)
+<img src="chromewebsecurity.png" alt="Chrome Web Security">
 purpose : 
 	- Display insecure content
 	- Navigate to any superdomain without cross-origin 	errors
@@ -120,7 +120,7 @@ you can use * as a wild card to include all tests within a certain constraint. F
 6. Click ‘Runs’ in top right hand corner
 7. Fill out fields and select ‘Set up project’
 8. Next you will see a page populate with the ‘projectId’ and ‘record key’
-9. ![fa98100de590cea2f8353d7eab73d2ba.png](:/aee723908df5407bb7286e2e600ce0f4)
+9.<img src="resources/dashboardproject.png" alt="Dashboard project id">
  10. Navigate back to project and open the cypress.json file. You should see your project ID listed
 11. Now to run test with cypress you should run `./node_modules/.bin/cypress run --record --key <record key value>`
 
